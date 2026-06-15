@@ -2,22 +2,7 @@
 
 A complete end-to-end data analytics project exploring the automobile market through exploratory data analysis (EDA) and an interactive Power BI dashboard. The project uncovers pricing trends, performance patterns, and market segmentation across 21 car brands.
 
----
 
-## 📌 Table of Contents
-
-- [Project Overview](#project-overview)
-- [Dataset Description](#dataset-description)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Key Insights](#key-insights)
-- [Dashboard Highlights](#dashboard-highlights)
-- [Getting Started](#getting-started)
-- [Results & Findings](#results--findings)
-- [Future Scope](#future-scope)
-- [Contact](#contact)
-
----
 
 ## Project Overview
 
@@ -76,17 +61,7 @@ This project analyzes a real-world automobile dataset to answer key business que
 | `city_mpg`, `highway_mpg` | Fuel efficiency ratings |
 | `price` | Vehicle price in USD |
 
----
 
-## Tech Stack
-
-| Tool | Purpose |
-|------|---------|
-| **Python 3.x** | Data loading, cleaning, and EDA |
-| **Pandas** | Data manipulation and aggregation |
-| **Power BI** | Interactive dashboard and visualization |
-
----
 
 ## Project Structure
 
@@ -96,11 +71,11 @@ automobile-analytics/
 ├── data/
 │   └── Automobile.csv          # Raw dataset
 │
-├── analysis/
-│   └── eda.ipynb               # Exploratory Data Analysis notebook
+├── screenshots/
+│   └── Automobile_dashboard.png               # Exploratory Data Analysis dashboard
 │
-├── dashboard/
-│   └── Automobile_Dashboard.pbix   # Power BI dashboard file
+├── reports/
+│   └── Automobile_Analysis_Dashboard.pbix   # Power BI dashboard file
 │
 └── README.md
 ```
@@ -142,41 +117,10 @@ The Power BI dashboard provides an interactive view of the dataset with the foll
 
 ---
 
-## Getting Started
-
-### Prerequisites
-
-```bash
-Python 3.7+
-pandas
-Power BI Desktop (for .pbix file)
-```
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/automobile-analytics.git
-cd automobile-analytics
-
-# Install dependencies
-pip install pandas
-```
-
-### Running the EDA
-
-```bash
-# Launch the notebook
-jupyter notebook analysis/eda.ipynb
-```
-
 ### Viewing the Dashboard
 
-Open `dashboard/Automobile_Dashboard.pbix` in **Power BI Desktop**.
+Open `./screenshots/Automobile_dashboard.png` in **Power BI Desktop**.
 
-> 💡 Power BI Desktop is free to download from [microsoft.com/power-bi](https://www.microsoft.com/en-us/power-platform/products/power-bi/desktop)
-
----
 
 ## Results & Findings
 
@@ -193,26 +137,5 @@ Open `dashboard/Automobile_Dashboard.pbix` in **Power BI Desktop**.
 | Most Common Brand | Toyota (32 cars) |
 | Most Common Body Style | Sedan (92 cars) |
 | Most Common Drivetrain | FWD (59%) |
-
----
-
-## Future Scope
-
-- [ ] Build a **price prediction model** using Linear Regression or Random Forest
-- [ ] Add **feature correlation heatmap** and multivariate analysis
-- [ ] Expand dataset with more recent automobile data
-- [ ] Deploy an interactive web app using **Streamlit** or **Dash**
-- [ ] Perform **customer segmentation** based on vehicle specs and price bands
-
----
-
-## Contact
-
-**Your Name**
-📧 your.email@example.com
-🔗 [LinkedIn](https://linkedin.com/in/yourprofile)
-🐙 [GitHub](https://github.com/yourusername)
-
----
 
 > ⭐ If you found this project useful, feel free to star the repository and share your feedback!
