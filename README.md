@@ -20,7 +20,7 @@ This project analyzes a real-world automobile dataset to answer key business que
 
 ## 📸 **Dashboard Preview:** 
 
-![Star_schema_dashboard](screenshots/dashboard_preview.png)
+![Automobile_dashboard](screenshots/Automobile_dashboard.png)
 
 ---
 
