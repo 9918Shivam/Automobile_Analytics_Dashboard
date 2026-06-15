@@ -13,9 +13,6 @@ This project analyzes a real-world automobile dataset to answer key business que
 - How do brands compare across price, performance, and fuel efficiency?
 - What are the tradeoffs between engine type, body style, and fuel economy?
 - Which segments dominate the market?
-
----
-
 ---
 
 ## 📸 **Dashboard Preview:** 
