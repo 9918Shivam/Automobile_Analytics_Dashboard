@@ -16,6 +16,14 @@ This project analyzes a real-world automobile dataset to answer key business que
 
 ---
 
+---
+
+## 📸 **Dashboard Preview:** 
+
+![Star_schema_dashboard](screenshots/dashboard_preview.png)
+
+---
+
 ## Dataset Description
 
 | Attribute | Details |
@@ -116,11 +124,6 @@ The Power BI dashboard provides an interactive view of the dataset with the foll
 - **Risk Rating Distribution** — symboling score breakdown across brands and body styles
 
 ---
-
-### Viewing the Dashboard
-
-Open `./screenshots/Automobile_dashboard.png` in **Power BI Desktop**.
-
 
 ## Results & Findings
 
